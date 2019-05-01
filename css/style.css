@@ -15,7 +15,7 @@ body {
   font-weight: 400;
 }
 h1 {
-  font-size: 72px;
+  font-size: 60px;
   color: #5f5f5f;
   text-align:center;
   font-weight: 300; }
@@ -125,7 +125,7 @@ p {
   height: 70px; }
 
 .is-sticky {
-  background: #C52625;
+  background: #C52625 !important;
   
   opacity: 1;
 }
@@ -151,6 +151,7 @@ p {
 
 .fixed {
   border-bottom: 1px solid #dfdfdf;
+  background:rgba(255,255,255,0.99);
   position: fixed;
   top: 0;
   left: 0;
@@ -179,8 +180,10 @@ p {
 
 .slider {
   background: url(../images/slider.jpg) no-repeat;
-  background-size: cover;
-  min-height: 800px; }
+  background-position: center;
+  min-height: 100vh;
+  margin-top: 80px;
+   }
   @media (max-width: 992px) {
     .slider {
       min-height: 700px; } }
@@ -208,7 +211,7 @@ p {
 }
 
 .slider-title_box {
-  background: rgba(244,244,244,0.97);
+  background: rgba(243,244,247,0.86);
         -webkit-box-shadow: 0 0 4px 1px #D9D9D9;
 box-shadow: 0 0 4px 1px #D9D9D9; }
 
