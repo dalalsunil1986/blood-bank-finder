@@ -64,7 +64,10 @@ p {
   background: #f3f4f7; }
 
 .dark-bg {
-  background: #252a33; }
+  background: #ffffff; }
+  .sticky-top{
+    border-bottom: 1px solid #dfdfdf;
+  }
 
 /* ==============================================================
    HEADER
